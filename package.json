@@ -1,0 +1,74 @@
+{
+  "name": "sample-mf-v2",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "lint-staged": "^10.5.0",
+    "commitlint": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0"
+  },
+  "devDependencies": {
+    "shell": "file:../shell/dist/emulator/shell-1.0.0.tgz",
+    "@dbeining/react-atom": "4.1.13",
+    "@libre/atom": "1.3.3",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "3.9.1",
+    "@typescript-eslint/parser": "3.9.1",
+    "eslint": "7.11.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-prettier": "6.13.0",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-plugin-cypress": "2.11.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.5",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "history": "4.10.1",
+    "lint-staged": "^10.5.0",
+    "path-to-regexp": "1.8.0",
+    "piral-cli": "^0.12.3",
+    "piral-cli-webpack": "^0.12.4",
+    "prettier": "^1.19.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-router": "5.2.0",
+    "react-router-dom": "5.2.0",
+    "tslib": "1.14.1",
+    "typescript": "latest"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "shell": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "shell"
+  }
+}
